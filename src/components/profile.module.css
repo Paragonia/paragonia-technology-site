@@ -1,0 +1,51 @@
+.avatar {
+  margin-bottom: 33px;
+  border-radius: 50%;
+}
+
+.social-icons {
+  bottom: 30px;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.social-icons li a {
+  color: #333;
+}
+
+.social-icons li a:hover {
+  opacity: .8;
+}
+
+.info-list {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 20px -15px;
+    overflow: auto;
+}
+
+.info-list p {
+    margin: 0;
+}
+
+.available {
+    color: green;
+}
+
+@media (max-width:980px) {
+    .avatar {
+        width: 100%;
+        height: 100%;
+    }
+}
+

@@ -255,33 +255,6 @@ a:not([href]):not([tabindex]) {
   min-height: 100vh;
 }
 
-.left-side .avatar {
-  margin-bottom: 33px;
-  border-radius: 50%;
-}
-
-.left-side .social-icons {
-  bottom: 30px;
-  padding: 0;
-}
-
-.left-side .social-icons li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-.left-side .social-icons li:last-child {
-  margin-right: 0;
-}
-
-.left-side .social-icons li a {
-  color: #333;
-}
-
-.left-side .social-icons li a:hover {
-  opacity: .8;
-}
-
 .right-side {
   margin: 0;
   padding: 0;
@@ -1722,10 +1695,6 @@ h2.menu-item:after {
     .left-side {
         padding-left: 30px;
         padding-right: 30px;
-    }
-    .left-side .avatar {
-        width: 100%;
-        height: 100%;
     }
     .left-side h1 {
         font-size: 24px;
