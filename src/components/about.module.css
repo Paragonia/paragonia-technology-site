@@ -1,0 +1,16 @@
+.info-list {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 20px -15px;
+    overflow: auto;
+}
+
+.info-list p {
+    margin: 0;
+}
+
+.available {
+    color: green;
+}
