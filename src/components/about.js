@@ -4,7 +4,7 @@ import aboutStyles from './about.module.css'
 
 const About = () => {
     return (
-        <section className="content">
+        <section className="about">
             <div className="block-content">
                 <h3 className="title">About Me</h3>
                 <h3 className="subtitle">I am a <b>Full Stack Software Engineer</b> located near Amsterdam, the Netherlands.</h3>

@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 import About from '../components/about'
+import Education from '../components/education'
 import Contact from '../components/contact'
 
 import profileStyles from './profile.module.css'
@@ -42,8 +43,11 @@ const Profile = () => {
                     </div>
                 </div>
                 <div className="col-sm-8 huge-side right-side">
-                    <About/>
-                    <Contact/>
+                    <div className="content">
+                        <About/>
+                        <Education/>
+                        <Contact/>
+                    </div>
                 </div>
             </div>
         </div>

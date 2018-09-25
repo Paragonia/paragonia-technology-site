@@ -6,7 +6,7 @@ import { faMapMarkerAlt, faMobileAlt, faAt } from '@fortawesome/free-solid-svg-i
 const Contact = () => {
     return (
         <div className="content-blocks">
-            <section className="content">
+            <section className="contact">
                 <div className="block-content">
                     <h3 className="title">Get in touch</h3>
                     <div className="row">
