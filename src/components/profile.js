@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 import About from '../components/about'
+import Experience from '../components/experience'
 import Education from '../components/education'
 import Contact from '../components/contact'
 
@@ -27,7 +28,7 @@ const Profile = () => {
                                  alt="Avatar"/>
                         </div>
                         <h1>André Kampert</h1>
-                        <h2>Software Engineer</h2>
+                        <h2>Freelance Software Engineer</h2>
                         <ul className={ profileStyles.socialIcons }>
                             <li>
                                 <a href="https://linkedin.com/in/andrekampert/">
@@ -45,6 +46,7 @@ const Profile = () => {
                 <div className="col-sm-8 huge-side right-side">
                     <div className="content">
                         <About/>
+                        <Experience/>
                         <Education/>
                         <Contact/>
                     </div>
