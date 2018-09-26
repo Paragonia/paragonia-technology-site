@@ -24,3 +24,9 @@
     font-size: 36px;
     line-height: 45px;
 }
+
+@media (max-width:980px) {
+    .icon-holder {
+        display: none;
+    }
+}
