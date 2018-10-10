@@ -21,7 +21,7 @@ const About = () => {
                     <p className="col-sm-6"><strong>Phone: </strong> + 31 6 48 26 08 37</p>
                     <p className="col-sm-6">
                         <strong>Status: </strong>
-                        <span className={ aboutStyles.available }>Available soon</span>
+                        <span className={ aboutStyles.hired}>Not available</span>
                     </p>
                 </div>
             </div>
