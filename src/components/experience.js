@@ -23,6 +23,9 @@ const Experience = () => (
                 title
                 start
                 end
+                keywords {
+                    languages
+                }
               }
               id
               excerpt(pruneLength: 500)
@@ -53,6 +56,13 @@ const Experience = () => (
                                         </div>
                                         <p>{ node.frontmatter.title }</p>
                                         { node.excerpt }
+                                        { node.frontmatter.keywords && node.frontmatter.keywords.languages && (
+                                            <p>
+                                                { node.frontmatter.keywords.languages.map((language, index) => (
+                                                    <span key={ index } className={ timelineStyles.badge }>{ language }</span>
+                                                ))}
+                                            </p>
+                                        )}
                                     </div>
                                 ))}
                             </div>
