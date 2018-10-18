@@ -25,6 +25,9 @@ const Experience = () => (
                 end
                 keywords {
                     languages
+                    technologies
+                    ides
+                    concepts
                 }
               }
               id
@@ -56,10 +59,12 @@ const Experience = () => (
                                         </div>
                                         <p>{ node.frontmatter.title }</p>
                                         { node.excerpt }
-                                        { node.frontmatter.keywords && node.frontmatter.keywords.languages && (
+                                        { node.frontmatter.keywords && (
                                             <p>
-                                                { node.frontmatter.keywords.languages.map((language, index) => (
-                                                    <span key={ index } className={ timelineStyles.badge }>{ language }</span>
+                                                { Object.keys(node.frontmatter.keywords).map((key, keyIndex) => (
+                                                    node.frontmatter.keywords[key] && node.frontmatter.keywords[key].map((item, itemIndex) => (
+                                                        <span key={`${keyIndex}-${itemIndex}`} className={ timelineStyles.badge }>{ item }</span>
+                                                    ))
                                                 ))}
                                             </p>
                                         )}
