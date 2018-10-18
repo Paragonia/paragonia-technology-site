@@ -5,10 +5,34 @@ title: "Large-scale enterprise collaboration"
 start: "Jan 2014"
 end: "Feb 2018"
 keywords: {
-    languages: [ "Scala", "Java", "ES6", "C#", "Swift" ],
-    technologies: [ "Play Framework", "Akka", "Kafka", "Cassandra", "MongoDB", "ElasticSearch", "PhaserJS"],
-    ides: [ "IntelliJ, XCode, Unity" ],
-    concepts: [ "CQRS", "Event sourcing", "Reactive", "Real-time", "WebGL" ]
+    languages: [
+        "Scala",
+        "Java",
+        "ES6",
+        "C#",
+        "Swift",
+    ],
+    technologies: [
+        "Play Framework",
+        "Akka",
+        "Kafka",
+        "Cassandra",
+        "MongoDB",
+        "ElasticSearch",
+        "PhaserJS",
+    ],
+    ides: [
+        "IntelliJ",
+        "XCode",
+        "Unity",
+    ],
+    concepts: [
+        "CQRS",
+        "Event sourcing",
+        "Reactive",
+        "Real-time",
+        "WebGL",
+    ]
 }
 ---
 

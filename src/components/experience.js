@@ -28,7 +28,7 @@ const Experience = () => (
                 }
               }
               id
-              excerpt(pruneLength: 500)
+              excerpt(pruneLength: 5000)
             }
           }
         }
