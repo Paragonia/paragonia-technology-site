@@ -17,27 +17,31 @@ const Contact = () => {
             <div className="col-lg-6">
               <div className="contact-content">
                 <div className="contact-icon">
-                  <FontAwesomeIcon icon={faMobileAlt} />
-                </div>
-                <div className="contact-details">
-                  <h5>Call me</h5>
-                  <p>
-                    {' '}
-                    <a href="tel:+31648260837">+31 6 48 26 08 37‬</a>
-                  </p>
-                </div>
-              </div>
-              <div className="contact-content">
-                <div className="contact-icon">
                   <FontAwesomeIcon icon={faAt} />
                 </div>
                 <div className="contact-details">
                   <h5>Email</h5>
                   <p>
-                    info
+                    andre
                     <span style={{ display: 'none' }}>-</span>@
                     <span style={{ display: 'none' }}>-</span>
                     paragonia.nl
+                  </p>
+                </div>
+              </div>
+              <div className="contact-content">
+                <div className="contact-icon">
+                  <FontAwesomeIcon icon={faMobileAlt} />
+                </div>
+                <div className="contact-details">
+                  <h5>Phone</h5>
+                  <p>
+                    +31
+                    <span style={{ display: 'none' }}>-</span> 6
+                    <span style={{ display: 'none' }}>-</span> 48
+                    <span style={{ display: 'none' }}>-</span> 26
+                    <span style={{ display: 'none' }}>-</span> 08
+                    <span style={{ display: 'none' }}>-</span> 37
                   </p>
                 </div>
               </div>
@@ -52,8 +56,12 @@ const Contact = () => {
                 <div className="contact-details">
                   <h5>Address</h5>
                   <p>
-                    Madagaskarstraat 5<br />
-                    1339 RD Almere
+                    Madagaskarstraat
+                    <span style={{ display: 'none' }}>-</span> 5<br />
+                    <span style={{ display: 'none' }}>-</span>
+                    1339
+                    <span style={{ display: 'none' }}>-</span> RD
+                    <span style={{ display: 'none' }}>-</span> Almere
                   </p>
                 </div>
               </div>

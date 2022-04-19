@@ -8,36 +8,38 @@ const About = () => {
       <div className="block-content">
         <h3 className="title">About Me</h3>
         <h3 className="subtitle">
-          I am a <b>Full Stack Software Engineer</b> located near Amsterdam, the
-          Netherlands.
+          I am a <b>Full Stack Software Engineer</b> located near{' '}
+          <b>Amsterdam</b>, the Netherlands.
         </h3>
-        <p>
-          Specialised in the design and implementation of large-scale complex
-          systems. I enjoy working with independent inter-disciplinary teams and
-          collaborative organizations. I have been working actively on the areas
-          of business analysis, interaction design, functional modeling,
-          enterprise architecture, technical design, and full stack software
-          development. My principal interests revolve around the use of
-          technology to develop flexible organizations and products that are
-          responsive to change. I have a genuine interest in all software
-          technology, and use my broad experience to make life easier for the
-          people around me, while encouraging others to do the same.
-        </p>
         <div className={`row ${aboutStyles.infoList}`}>
-          <p className="col-sm-6">
-            <strong>Name: </strong> André Kampert
-          </p>
-          <p className="col-sm-6">
-            <strong>Email: </strong> andre@paragonia.nl
-          </p>
-          <p className="col-sm-6">
-            <strong>Phone: </strong> + 31 6 48 26 08 37
-          </p>
-          <p className="col-sm-6">
+          <p className="col-sm-12">
             <strong>Status: </strong>
-            <span className={aboutStyles.hired}>Not available</span>
+            <span className={aboutStyles.hired}>
+              Unavailable / Working for a client
+            </span>
           </p>
         </div>
+        <p>
+          Specialised in the design and implementation of large-scale complex
+          systems, I have a lot of experience with full-stack software
+          development. I am most effective working within agile
+          inter-disciplinary teams. I enjoy working with stakeholders and being
+          at the forefront of business and technology to solve challenging
+          problems in creative ways.
+        </p>
+        <p>
+          I have a no-nonsense personality. My core values are honesty and
+          transparency. I communicate directly, but respectfully and with an
+          open mind. I care deeply about the well-being of our planet and its
+          inhabitants and I want my professional efforts to positively impact
+          those. I enjoy working from home with the occasional day at the
+          office.
+        </p>
+        <p>
+          I try to live a healthy lifestyle with my family. In our free time, we
+          enjoy a variety of sports played at a casual level, visiting cultural
+          events and playing Mario Kart competitively.
+        </p>
       </div>
     </section>
   )

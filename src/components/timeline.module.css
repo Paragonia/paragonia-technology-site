@@ -1,6 +1,6 @@
 h5.badge {
-    color: #fff;
-    background-color: #777;
+    color: #000;
+    background-color: #666;
 }
 
 .badge {
@@ -14,7 +14,7 @@ h5.badge {
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
-    background-color: #aaa;
+    background-color: #888;
     border-radius: 10px;
 }
 
@@ -29,7 +29,7 @@ h5.badge {
     height: 50px;
     position: absolute;
     text-align: center;
-    color: #ddd;
+    color: #eee;
     font-size: 36px;
     line-height: 45px;
 }

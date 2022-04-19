@@ -33,11 +33,10 @@ License: https://themeforest.net/licenses/standard
 }
 
 body, html {
-    font: 400 14px 'Poppins', sans-serif;
+    font: 400 18px 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
     line-height: 30px;
-    color: #727272;
-    font-size: 16px;
+    color: #333;
     font-weight: 300;
     line-height: 2.1;
     height: 100%;
@@ -181,7 +180,7 @@ a:not([href]):not([tabindex]) {
 }
 
 .btn:hover {
-    color: #666;
+    color: #888;
     background-color: #FFF;
     border: 2px solid #666;
     letter-spacing: 3px;
@@ -475,7 +474,7 @@ h2.menu-item:after {
     line-height: 40px;
     margin-top: -5px;
     padding: 0 15px;
-    color: #666;
+    color: #333;
 }
 
 .inline-menu li.active,
@@ -974,7 +973,7 @@ h2.menu-item:after {
 
 .exp .hgroup h5 {
     font-size: 10px;
-    color: #fff;
+    color: #FFF;
     margin: 7px 20px 10px;
 }
 
