@@ -32,6 +32,6 @@
 
   /* Improve contrast on list item markers. */
   li::marker {
-    color: #666;
+    color: #666; !important;
   }
 }
