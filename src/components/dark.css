@@ -5,9 +5,6 @@
   }
 
   /* Workarounds and optical adjustments. */
-  body {
-    background-color: #333;
-  }
 
   /* Firefox workaround: Set the background colour for the html
      element separately because, unlike other browsers, Firefox
