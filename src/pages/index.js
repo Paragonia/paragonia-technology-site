@@ -5,7 +5,7 @@ import Profile from '../components/profile'
 
 const IndexPage = () => (
   <Layout>
-    <Profile/>
+    <Profile />
   </Layout>
 )
 
