@@ -6,7 +6,7 @@
 
   /* Workarounds and optical adjustments. */
   body {
-    background-color: #333;
+    background-color: #333 !important;
   }
 
   /* Firefox workaround: Set the background colour for the html
