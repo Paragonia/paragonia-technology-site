@@ -6,6 +6,7 @@ import Footer from './footer'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import './layout.css'
+import './dark.css'
 
 const Layout = ({ children }) => (
   <StaticQuery

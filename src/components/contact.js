@@ -34,8 +34,10 @@ const Contact = () => {
                 <div className="contact-details">
                   <h5>Email</h5>
                   <p>
-                    info<span style={{ display: 'none' }}>-</span>@
-                    <span style={{ display: 'none' }}>-</span>paragonia.nl
+                    info
+                    <span style={{ display: 'none' }}>-</span>@
+                    <span style={{ display: 'none' }}>-</span>
+                    paragonia.nl
                   </p>
                 </div>
               </div>
