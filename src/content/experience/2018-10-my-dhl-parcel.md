@@ -8,7 +8,6 @@ end: "Current"
 keywords: {
     languages: [
         "Scala",
-        "Java",
         "Typescript"
     ],
     technologies: [
@@ -18,10 +17,12 @@ keywords: {
         "ElasticSearch",
         "iText PDF",
         "Kafka",
+        "Play",
         "Docker",
         "React",
         "Redis",
         "Scala FX",
+        "Tapir",
         "Mesos + Marathon"
     ],
     ides: [
@@ -36,4 +37,8 @@ keywords: {
 }
 ---
 
-Coming soon... 
+Working on a modern all-in-one shipping service, responsible for developing business and consumer applications, including various microservices to support operational processes. 
+
+Developing international shipping labels for different products and printer types, customs integration, product lifecycle management, customer APIs, desktop integration for 3rd party shipping tools.
+
+Responsible for the reliable operation of the platform and providing 3rd line support.
