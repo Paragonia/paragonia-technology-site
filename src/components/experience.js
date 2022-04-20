@@ -67,7 +67,7 @@ const Experience = () => (
                         </h5>
                       </div>
                       <p>{node.frontmatter.title}</p>
-                      {node.excerpt}
+                      <p>{node.excerpt}</p>
                       {node.frontmatter.keywords && (
                         <p>
                           {Object.keys(node.frontmatter.keywords).map(
