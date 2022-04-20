@@ -9066,10 +9066,8 @@ License: https://themeforest.net/licenses/standard
 body, html {
     font: 400 20px 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
-    line-height: 30px;
     color: #333;
     font-weight: 300;
-    line-height: 2.1;
     height: 100%;
     width: 100%;
     text-rendering: optimizeLegibility;
