@@ -11,12 +11,6 @@ const About = () => {
           I am a <b>Full Stack Software Engineer</b> located near{' '}
           <b>Amsterdam</b>, the Netherlands.
         </h3>
-        <div className={`row ${aboutStyles.infoList}`}>
-          <p className="col-sm-12">
-            <strong>Status: </strong>
-            <span className={aboutStyles.hired}>Unavailable</span>
-          </p>
-        </div>
         <p>
           I enjoy working with stakeholders and being at the forefront of
           business and technology to solve challenging problems in creative
