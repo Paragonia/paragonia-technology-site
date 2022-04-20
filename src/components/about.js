@@ -23,7 +23,7 @@ const About = () => {
           ways. Specialised in the design and implementation of large-scale
           complex systems, I have a lot of experience with full-stack software
           development. I am most effective working within agile
-          inter-disciplinary teams.
+          inter-disciplinary teams and well versed in Agile methodologies like Scrum.
         </p>
         <p>
           I have a no-nonsense personality. My core values are honesty and

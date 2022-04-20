@@ -26,7 +26,6 @@ keywords: {
         "Eclipse",
     ],
     concepts: [
-        "Scrum",
         "Component based development",
     ]
 }
