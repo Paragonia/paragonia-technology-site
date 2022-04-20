@@ -4,7 +4,22 @@ company: "Staatsloterij"
 title: "Dutch lottery website"
 start: "Oct 2004"
 end: "Dec 2005"
+keywords: {
+    languages: [
+        "Java",
+    ],
+    technologies: [
+        "Spring",
+        "Hibernate",
+    ],
+    ides: [
+        "Eclipse",
+    ],
+    concepts: [
+        "ORM",
+        "Component based design",
+    ]
+}
 ---
 
-Holiday portal for searching and booking a diversity of accommodations. Software architecture, implementation and team lead.
-
+Implementing the website and back-office for the Dutch state lottery.

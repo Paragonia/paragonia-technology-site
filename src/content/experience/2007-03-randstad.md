@@ -14,7 +14,7 @@ keywords: {
         "Spring WS",
         "Hibernate",
         "Struts 2",
-        "BEA Weblogic",
+        "Weblogic",
         "Oracle",
         "Maven",
         "Apache",

@@ -14,26 +14,24 @@ const About = () => {
         <div className={`row ${aboutStyles.infoList}`}>
           <p className="col-sm-12">
             <strong>Status: </strong>
-            <span className={aboutStyles.hired}>
-              Unavailable / Working for a client
-            </span>
+            <span className={aboutStyles.hired}>Unavailable</span>
           </p>
         </div>
         <p>
-          Specialised in the design and implementation of large-scale complex
-          systems, I have a lot of experience with full-stack software
+          I enjoy working with stakeholders and being at the forefront of
+          business and technology to solve challenging problems in creative
+          ways. Specialised in the design and implementation of large-scale
+          complex systems, I have a lot of experience with full-stack software
           development. I am most effective working within agile
-          inter-disciplinary teams. I enjoy working with stakeholders and being
-          at the forefront of business and technology to solve challenging
-          problems in creative ways.
+          inter-disciplinary teams.
         </p>
         <p>
           I have a no-nonsense personality. My core values are honesty and
           transparency. I communicate directly, but respectfully and with an
           open mind. I care deeply about the well-being of our planet and its
           inhabitants and I want my professional efforts to positively impact
-          those. I enjoy working from home with the occasional day at the
-          office.
+          those. I enjoy a healthy balance between working from home and on
+          location.
         </p>
         <p>
           I try to live a healthy lifestyle with my family. In our free time, we

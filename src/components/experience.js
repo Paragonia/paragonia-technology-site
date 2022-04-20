@@ -2,7 +2,7 @@ import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMedal } from '@fortawesome/free-solid-svg-icons'
+import { faMedal, faLink } from '@fortawesome/free-solid-svg-icons'
 
 import timelineStyles from './timeline.module.css'
 
@@ -21,6 +21,7 @@ const Experience = () => (
                 position
                 company
                 title
+                url
                 start
                 end
                 keywords {
@@ -31,7 +32,7 @@ const Experience = () => (
                 }
               }
               id
-              excerpt(pruneLength: 5000)
+              excerpt(pruneLength: 10000)
             }
           }
         }
@@ -54,7 +55,7 @@ const Experience = () => (
                     <div key={node.id} className="exp">
                       <div className="hgroup">
                         <h4>
-                          {node.frontmatter.position} /{' '}
+                          {node.frontmatter.position} @{' '}
                           {node.frontmatter.company}
                         </h4>
                         <h5 className={timelineStyles.badge}>
@@ -66,7 +67,17 @@ const Experience = () => (
                           )}
                         </h5>
                       </div>
-                      <p>{node.frontmatter.title}</p>
+                      <p>
+                        {node.frontmatter.title}
+                        {node.frontmatter.url && (
+                          <a
+                            className={timelineStyles.iconLink}
+                            href={`${node.frontmatter.url}`}
+                          >
+                            <FontAwesomeIcon icon={faLink} />
+                          </a>
+                        )}
+                      </p>
                       <p>{node.excerpt}</p>
                       {node.frontmatter.keywords && (
                         <p>

@@ -48,8 +48,7 @@ const Education = () => (
                     <div key={node.id} className="exp">
                       <div className="hgroup">
                         <h4>
-                          {node.frontmatter.school} /{' '}
-                          {node.frontmatter.location}
+                          {node.frontmatter.school} {node.frontmatter.location}
                         </h4>
                         <h5 className={timelineStyles.badge}>
                           {node.frontmatter.start} -{' '}
