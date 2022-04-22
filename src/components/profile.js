@@ -30,16 +30,16 @@ const Profile = () => {
               />
             </div>
             <h1>André Kampert</h1>
-            <h2>Freelance Software Engineer</h2>
+            <p>Freelance Software Engineer</p>
             <ul className={profileStyles.socialIcons}>
-              <li>
-                <a href="https://linkedin.com/in/andrekampert/">
-                  <FontAwesomeIcon icon={faLinkedin} />
-                </a>
-              </li>
               <li>
                 <a href="https://github.com/andrekampert">
                   <FontAwesomeIcon icon={faGithub} />
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/andrekampert/">
+                  <FontAwesomeIcon icon={faLinkedin} />
                 </a>
               </li>
             </ul>

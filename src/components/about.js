@@ -1,16 +1,13 @@
 import React from 'react'
 
-import aboutStyles from './about.module.css'
-
 const About = () => {
   return (
-    <section className="about">
       <div className="block-content">
-        <h3 className="title">About Me</h3>
-        <h3 className="subtitle">
+        <h1 className="title">About Me</h1>
+        <p className="subtitle">
           I am a <b>Full Stack Software Engineer</b> located near{' '}
           <b>Amsterdam</b>, the Netherlands.
-        </h3>
+        </p>
         <p>
           I enjoy working with stakeholders and being at the forefront of
           business and technology to solve challenging problems in creative
@@ -33,7 +30,6 @@ const About = () => {
           events and playing Mario Kart competitively.
         </p>
       </div>
-    </section>
   )
 }
 

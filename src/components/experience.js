@@ -90,7 +90,7 @@ const Experience = () => (
                                     key={`${keyIndex}-${itemIndex}`}
                                     className={timelineStyles.badge}
                                   >
-                                    {item}
+                                    {item}{' '}
                                   </span>
                                 )
                               )
