@@ -32,7 +32,7 @@ const Experience = () => (
                 }
               }
               id
-              excerpt(pruneLength: 10000)
+              html
             }
           }
         }
@@ -78,7 +78,7 @@ const Experience = () => (
                           </a>
                         )}
                       </p>
-                      <p>{node.excerpt}</p>
+                      <div dangerouslySetInnerHTML={{ __html: node.html }} />
                       {node.frontmatter.keywords && (
                         <p>
                           {Object.keys(node.frontmatter.keywords).map(

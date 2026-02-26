@@ -25,7 +25,7 @@ const Education = () => (
                 end
               }
               id
-              excerpt(pruneLength: 500)
+              html
             }
           }
         }
@@ -60,7 +60,7 @@ const Education = () => (
                         </h5>
                       </div>
                       <p>{node.frontmatter.education}</p>
-                      {node.excerpt}
+                      <div dangerouslySetInnerHTML={{ __html: node.html }} />
                     </div>
                   ))}
                 </div>
