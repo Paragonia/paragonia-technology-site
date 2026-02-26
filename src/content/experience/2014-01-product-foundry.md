@@ -37,4 +37,4 @@ keywords: {
 }
 ---
 
-Responsible for the systems design, architecture, implementation and operations for a collaboration software application with a small team. Using CQRS and event sourcing to maintain a platform neutral journal with complete history of system interactions based on Akka Persistence, Protobuf and Cassandra. Building real-time projections using Kafka with Akka Streams and best-of-breed technologies. Implemented a front-end based on game mechanics using Typescript, Phaser and AngularJS.
+Responsible for the systems design, architecture, implementation and operations for a collaboration software application with a small team. Using CQRS and event sourcing to maintain a platform-neutral journal with complete history of system interactions based on Akka Persistence, Protobuf and Cassandra. Building real-time projections using Kafka with Akka Streams and best-of-breed technologies. Implemented a front-end based on game mechanics using Typescript, Phaser and AngularJS.
