@@ -5,6 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMedal, faLink } from '@fortawesome/free-solid-svg-icons'
 
 import timelineStyles from './timeline.module.css'
+import experienceStyles from './experience.module.css'
+
 
 const Experience = () => (
   <StaticQuery
@@ -78,7 +80,10 @@ const Experience = () => (
                           </a>
                         )}
                       </p>
-                      <div dangerouslySetInnerHTML={{ __html: node.html }} />
+                      <div
+                        className={experienceStyles.body}
+                        dangerouslySetInnerHTML={{ __html: node.html }}
+                      />
                       {node.frontmatter.keywords && (
                         <p>
                           {Object.keys(node.frontmatter.keywords).map(

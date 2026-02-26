@@ -1,0 +1,16 @@
+@media print {
+    .left-side {
+        background: none !important;
+    }
+
+    footer {
+        display: none !important;
+    }
+
+    .title {
+        background: none;
+        -webkit-background-clip: initial !important;
+        -webkit-text-fill-color: initial !important;
+    }
+}
+
