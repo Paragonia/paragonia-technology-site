@@ -4,7 +4,7 @@ company: "DHL Parcel"
 title: "My DHL Parcel"
 url: "https://my.dhlparcel.nl/"
 start: "Oct 2018"
-end: "Current"
+end: "Jun 2015"
 keywords: {
     languages: [
         "Scala",
@@ -12,12 +12,14 @@ keywords: {
     ],
     technologies: [
         "Akka",
-        "Azure",
+        "Microsoft Azure",
         "Cassandra",
         "ElasticSearch",
         "iText PDF",
         "Kafka",
+        "Kubernetes",
         "Play",
+        "Zio",
         "Docker",
         "React",
         "Redis",
