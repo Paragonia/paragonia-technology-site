@@ -19,9 +19,7 @@ const About = () => {
         <p>
           I have a no-nonsense personality. My core values are honesty and
           transparency. I communicate directly, but respectfully and with an
-          open mind. I care deeply about the well-being of our planet and its
-          inhabitants and I want my professional efforts to positively impact
-          those. I enjoy a healthy balance between working from home and on
+          open mind. I enjoy a healthy balance between working from home and on
           location.
         </p>
         <p>
