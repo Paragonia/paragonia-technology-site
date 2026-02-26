@@ -1,7 +1,6 @@
 import React from 'react'
 
-import imgAvatar from '../images/avatar/avatar-195x195.png'
-import imgAvatar2x from '../images/avatar/avatar-390x390-2x.png'
+import imgAvatar from '../images/avatar.jpg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -23,7 +22,6 @@ const Profile = () => {
               <img
                 className={profileStyles.avatar}
                 src={imgAvatar}
-                srcSet={`${imgAvatar2x} 2x`}
                 width="195"
                 height="195"
                 alt="Avatar"
