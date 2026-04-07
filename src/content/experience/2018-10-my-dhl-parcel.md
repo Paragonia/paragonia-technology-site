@@ -4,7 +4,7 @@ company: "DHL"
 title: "DHL eCommerce"
 url: "https://my.dhlecommerce.nl"
 start: "Oct 2018"
-end: "Jun 2015"
+end: "Jun 2025"
 keywords: {
     languages: [
         "Scala",
